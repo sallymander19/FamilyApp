@@ -13,13 +13,19 @@ namespace FamilyAppKarenNilson
         {
 
             Title = "FamilyAppKarenNilson";
+                Padding = new Thickness(5,20);
             Content = new ScrollView
             {
                 Content = new StackLayout
-
+                
                 {
                     //VerticalOptions = LayoutOptions.Center,
                     Children = {
+                            new Image
+                            {
+                                Source = ImageSource.FromResource("FamilyAppKarenNilson.Images.karen.JPG"),
+                                
+                            },
                                                 new Label {
                             HorizontalTextAlignment = TextAlignment.Center,
                             BackgroundColor = Color.Teal,
@@ -47,6 +53,11 @@ namespace FamilyAppKarenNilson
                                  }
                                  }
                             }
+                            },
+                                                                            new Image
+                            {
+                                Source = ImageSource.FromResource("FamilyAppKarenNilson.Images.anime dad.PNG"),
+
                             },
                         new Label {
                             HorizontalTextAlignment = TextAlignment.Center,
@@ -76,7 +87,11 @@ namespace FamilyAppKarenNilson
                                  }
                             }
                             },
+                            new Image
+                            {
+                                Source = ImageSource.FromResource("FamilyAppKarenNilson.Images.fafi mama.PNG"),
 
+                            },
                             new Label {
                             HorizontalTextAlignment = TextAlignment.Center,
                             FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
@@ -107,6 +122,11 @@ namespace FamilyAppKarenNilson
                                  }
                             }
                                                          },
+                                                        new Image
+                            {
+                                Source = ImageSource.FromResource("FamilyAppKarenNilson.Images.animesistershugging.JPG"),
+
+                            },
                             new Label {
                             HorizontalTextAlignment = TextAlignment.Center,
                             BackgroundColor = Color.Fuchsia,
@@ -136,6 +156,11 @@ namespace FamilyAppKarenNilson
                                  }
                             }
                                                                                  },
+                                                        new Image
+                            {
+                                Source = ImageSource.FromResource("FamilyAppKarenNilson.Images.brother.PNG"),
+
+                            },
                             new Label {
                             HorizontalTextAlignment = TextAlignment.Center,
                             BackgroundColor = Color.Orange,
